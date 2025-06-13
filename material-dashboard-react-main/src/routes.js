@@ -50,7 +50,7 @@ import EmployerJobDetail from "layouts/tables";
 const routes = [
   {
     type: "collapse",
-    name: "EmpDashboard",
+    name: "EmDashboard",
     key: "dashboard",
     icon: <Icon fontSize="small">dashboard</Icon>,
     route: "/dashboard",
