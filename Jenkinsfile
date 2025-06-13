@@ -2,7 +2,7 @@
 pipeline {
     agent any
     tools {
-        nodejs 'Node18' // Matches NodeJS configuration in Jenkins
+        nodejs 'Node54' // Matches NodeJS configuration in Jenkins
     }
     stages {
         stage('Checkout') {
