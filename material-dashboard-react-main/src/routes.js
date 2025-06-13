@@ -50,7 +50,7 @@ import EmployerJobDetail from "layouts/tables";
 const routes = [
   {
     type: "collapse",
-    name: "EmDashboard",
+    name: "EDashboard",
     key: "dashboard",
     icon: <Icon fontSize="small">dashboard</Icon>,
     route: "/dashboard",
@@ -58,7 +58,7 @@ const routes = [
   },
   {
     //type: "collapse",
-    name: "Tables",
+    name: "ETables",
     key: "tables",
     //icon: <Icon fontSize="small">table_view</Icon>,
     route: "/employer/job/:id",
