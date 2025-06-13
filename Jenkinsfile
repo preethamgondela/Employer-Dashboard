@@ -24,6 +24,13 @@ pipeline {
                 }
             }
         }
+	stage('Deploy to Tomcat') {
+            steps {
+                dir('material-dashboard-react-main') {
+                    bat 'xcopy /E /I /Y build "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\reactapp"'
+                }
+            }
+        }
         stage('Archive Artifacts') {
             steps {
                 dir('material-dashboard-react-main') {
